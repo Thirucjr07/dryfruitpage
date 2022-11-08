@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Poppins';
+    font-family: 'Poppins' !important;
 }
 .head-sec{
     background-color: #393939;
