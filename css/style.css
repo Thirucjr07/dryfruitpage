@@ -726,6 +726,10 @@ padding: 12px 65px;
     .h3-b{
         font-size: 38px;
     }
+    .cd-1 h4{
+        font-size:64px;
+        line-height: 64px;
+    }
 }
 @media only screen and (min-width:992px) and (max-width:1024px){
     .dn-s1{
@@ -788,10 +792,20 @@ padding: 12px 65px;
     .dsp-s1::after{
         width: 75%;
     }
+    .ss-ds1{
+        font-size: 15px;
+    }
+    .cd-1 h4{
+        font-size:64px;
+        line-height: 64px;
+    }
 }
 
 
-@media only screen and (min-width:768px) and (max-width:991px){
+@media only screen and (min-width:752px) and (max-width:991px){
+    .ss-ds1{
+        font-size: 15px;
+    }
     .dn-s1{
         display: block;
     }
@@ -845,7 +859,7 @@ padding: 12px 65px;
         display: flex;
     }
     .ff-1{
-        padding: 45px 55px;
+        padding: 38px 55px;
     }
     .cd-1 h3{
         margin-top: 90px;
@@ -916,23 +930,48 @@ padding: 12px 65px;
     .sp-s2{
         font-size: 18px;
     }
+    .ss-2 p{
+        font-size: 14px;
+    }
 }
 
-@media only screen and (min-width:480px) and (max-width:767px){
+@media only screen and (min-width:601px) and (max-width:751px){
+    .ss-cc1 h5 {
+        font-size: 18px;
+        height: 40px;
+    }
+    .carousel-inner .item .col-md-12 .row{
+        display: flex;
+    }
+    .carousel-inner .item .col-md-12 .row .col-md-6{
+        width: 50%;
+    }
+    .ss-ds1{
+        font-size: 13px;
+    }
     .dn-s1{
         display: block;
     }
+    .ic{
+        width: 132px;
+    }
     .banner-sec{
-        height: 438px;
+        height: 500px;
     }
     .br-row {
         padding-top: 45px;
     }
     .br-row .col-md-6::after {
-        bottom: -217px;
+        bottom: -302px;
         right: 0;
         width: 100%;
         height: 400px;
+    }
+    .banner-below .row .col-md-3{
+        width: 25%;
+    }
+    .ss-2 p{
+        font-size: 14px;
     }
     .sub-steps .row{
         display: flex;
@@ -952,9 +991,7 @@ padding: 12px 65px;
     .sub-below .row{
         display: flex;
     }
-    .df-2 .row{
-        display: flex;
-    }
+    
     .para_prt{
         width: 60%;
     }
@@ -962,8 +999,9 @@ padding: 12px 65px;
         font-size: 80px;
     }
     .cd-1 h4 {
-        font-size: 56px;
-        line-height: 60px;
+    font-size: 42px;
+    line-height: 46px;
+
     }
     .cd-2 p{
         font-size: 16px;
@@ -972,7 +1010,10 @@ padding: 12px 65px;
         display: flex;
     }
     .ff-1{
-        padding: 45px 55px;
+        padding: 44px 30px;
+    }
+    .ff-1 h4, .ff-1 h5{
+        font-size: 14px;
     }
     .cd-1 h3{
         margin-top: 90px;
@@ -981,28 +1022,30 @@ padding: 12px 65px;
         width: 30%;
     }
     .df-c{
-        width: 155px;
+        width: 100%;
     }
     .carousel-indicators {
         bottom: -40px !important;
-        width: 100% !important;
-        left: 208px !important;
+        
+        left: 65% !important;
     }
     .df-1 h3{
         line-height: 45px;
+        font-size: 54px;
     }
     .ic {
-        height: 150px;
+        height: 200px;
         padding: 18px 10px;
-        width: 138px;
+        width: 110px;
         display: flex;
+        flex-direction: column;
         color: #fff;
     }
     .banner-below .row:nth-child(1){
         display: flex;
     }
     .ic .col-md-9 h5 {
-        font-size: 16px;
+        font-size: 15px;
     }
     .ic .col-md-9 h6 {
         font-size: 14px;
@@ -1020,7 +1063,7 @@ padding: 12px 65px;
         width: 33%;
     }
     .ss-c1, .ss-c2, .ss-c3 {
-        height: 600px;
+        height: 540px;
         background-size: 100% 100%;
     }
     .ss-ds{
@@ -1035,17 +1078,116 @@ padding: 12px 65px;
         height: 28px;
     }
     .ss-cc1 h6{
-        margin-bottom: 110px;
+        margin-bottom: 90px;
     }
     .ss-ca{
-        margin-top: 60px;
+        margin-top: 40px;
     }
     .sp-s2{
-        font-size: 18px;
+        font-size: 14px;
+    }
+    .ss-ca a{
+        font-size: 16px;
     }
 }
-
+@media only screen and (min-width:480px) and (max-width:600px){
+    .ff-2{
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: -50px;
+    }
+    .df-c{
+        width: 100%;
+    }
+    .cd-1 h4{
+        font-size: 64px;
+    }
+    .carousel-indicators{
+        left: 62% !important;
+    }
+    .ff-1 {
+        border-radius: 180px 180px 0px 0px;
+        width: 80%;
+        height: 280px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .br-row {
+        padding-top: 35px;
+    }
+    .ss-m1 .col-md-3:nth-child(1){
+        display: none;
+    }
+    .dn-s1{
+        display: block;
+    }
+    .br-row .col-md-6::after{
+        width: 100%;
+        bottom: -300px;
+        height: 345px;
+    }
+    .logo {
+        width: 50%;
+    }
+    .banner-sec{
+        margin-bottom: 50px;
+    }
+    .ic {
+        margin: 0 10px;
+        height: 110px;
+        padding: 14px 10px;
+        width: 95%;
+        margin-bottom: 10px;
+        display: flex;
+    }
+    .ic .col-md-9{
+        width: 80%;
+    }
+    .ss-c1, .ss-c2, .ss-c3{
+    background-size:100%;
+    height: 800px;
+    }
+    .ss-ds{
+        width: 99%;
+        margin-bottom: 40px;
+    }
+    .ss-cc1 strike{
+        font-size: 26px;
+    }
+    .ss-cc1 h6{
+        font-size: 30px;
+        margin-bottom: 152px;
+    }
+    .dsp-s1::after {
+        width: 80%;
+        left: 5%;
+        right: 5%;
+    }
+    .ss-ca{
+        margin-top: 45px;
+    }
+    .whole_prta{
+        flex-direction: column;
+        height: 270px;
+    }
+    .sp-s2 {
+        height: 82px;
+        font-size: 26px;
+        margin: -24px 0;
+    }
+    .carousel-inner .item .col-md-12 .row{
+        display: flex;
+    }
+    .carousel-inner .item .col-md-12 .row .col-md-6{
+        width: 50%;
+    }
+}
 @media only screen and (min-width:320px) and (max-width:479px){
+    .ic .col-md-9{
+        width: 80%;
+    }
+    
     .dn-s1{
         display: block;
     }
@@ -1057,6 +1199,7 @@ padding: 12px 65px;
     }
     .banner-sec{
         height: 435px;
+        margin-bottom: 60px;
     }
     .br-row .col-md-6::after{
         bottom: -158px;
@@ -1070,4 +1213,90 @@ padding: 12px 65px;
     .h3-b::after{
         width: 270px;
     }
+    .ic {
+        margin: 10px 10px;
+        display: flex;
+        height: 160px;
+        width: 95%;
+    }
+    .ss-m h2 {
+        font-size: 42px;
+        line-height: 36px;
+    }
+    .ss-m1 .col-md-3:nth-child(1){
+        display: none;
+    }
+    .ss-1 h2 {
+        font-size: 42px;
+        line-height: 42px;
+    }
+    .ss-1 h3 {
+        font-size: 26px;
+        line-height: 20px;
+    }
+    .cd-1 h4 {
+        font-size: 42px;
+        line-height: 50px;
+    }
+    .carousel-indicators {
+        bottom: -42px !important;
+        width: 100% !important;
+        left: 32% !important;
+    }
+    .df-c{
+        width: 100%;
+    }
+    .accordion__header h2{
+        font-size:12px ;
+    }
+    .whole_prta{
+        flex-direction: column;
+        height: 330px;
+    }
+    .para_prt{
+        width: 100%;
+    }
+    .ff-2 input{
+        width: 100%;
+    }
+    .ff-1 {
+        border-radius: 180px 180px 0px 0px;
+        padding: 50px;
+        height: 316px;
+    }
+    .ss-c1, .ss-c2, .ss-c3 {
+        height: 600px;
+        background-size: 100% 100%;
+        margin-bottom: 25px;
+    }
+    .ss-cc1 h6{
+        margin-bottom: 108px;
+    }
+    .ss-cc1 p{
+        margin: 20px 0;
+    }
+    .ss-ca{
+        margin-top: 35px;
+    }
+    .ss-ds{
+        width: 100%;
+    }
+    .dsp-s1::after{
+        width: 84%;
+        left: 5%;
+        right: 5%;
+    }
+    .df-1 h3 {
+        font-size: 58px;
+    }
+    .carousel-inner .item .col-md-12 .row{
+        display: flex;
+    }
+    .carousel-inner .item .col-md-12 .row .col-md-6{
+        width: 50%;
+    }
+    .df-1{
+        margin-top: 50px;
+    }
+    
 }
